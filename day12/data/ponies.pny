@@ -1,0 +1,27 @@
+# Data file describing a bunch of ponies to make instances of
+#
+# .pny files are line based and would like multiple ponies in one file
+# One line per pony, lines are a bunch of name/attribute pairs
+
+# Comma separated with different length lines
+# line starts with the type and attibutes are in the implicit/required order
+# Note: the attributes will be different/differently ordered for each type
+# unicorn,max,....
+# pegasus,lucy,...
+
+# Type_of_pony, name, color, attributes
+#   attributes for earth ponies: strength
+#   attributes for unicorn ponies: horn
+#   attributes for pegasus ponies: wingspan,pacifist?
+#ponies[0] = new EarthPony("Max","pink", 100);
+e,Max,pink,100
+# ponies[1] = new EarthPony("Eric","orange", -1);
+e,Eric,orange,-1
+# ponies[2] = new UnicornPony("SoulBreaker", "red","long");
+u,SoulBreaker,red,long
+# ponies[3] = new UnicornPony("Tina","blue", "red");
+u,Tina,blue,red
+# ponies[4] = new Pegases("Max", "purple", 2);
+p,Max,purple,2
+# ponies[5] = new Pegases("Elliot", "green", 7);
+p,Elliot,green,7,+

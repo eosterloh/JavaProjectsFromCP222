@@ -1,0 +1,9 @@
+# bad1.ccr
+#
+# This is an invalid ccr file - class without characters
+
+digit    0123456789
+ucletter ABCDEFGHIJKLMNOPQRSTUVWXYZ
+cat
+lcletter abcdefghijklmnopqrstuvwxyz
+letter   ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz

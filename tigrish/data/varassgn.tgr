@@ -1,0 +1,11 @@
+# This file took hours to generate the test for... because I had a subtle bug
+5five=
+6six=
+five six+ eleven=
+eleven 10*six= 
+five six+eleven=
+eleven eleven-eleven=
+five six=
+eleven five=
+#If this tests fails you might be storing a variable node where you should be
+#storing an integer node in the symbol table.

@@ -1,0 +1,14 @@
+# A small sample program to exercise basic Tigrish language features
+# Basic add operation
+4 5 +
+# Basic assignment operation
+a =
+a >
+# Addition using variables
+a a +
+# Test output with an integer
+>
+# Test input
+var <
+# Test output with a variable
+var >

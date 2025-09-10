@@ -1,0 +1,9 @@
+# sample2.ccr
+#
+# This is a ccr file does the same thing as sample1.ccr but doesn't reference earlier
+# character classes
+
+digit    0123456789
+ucletter ABCDEFGHIJKLMNOPQRSTUVWXYZ
+lcletter abcdefghijklmnopqrstuvwxyz
+letter   ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz

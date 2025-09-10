@@ -1,0 +1,18 @@
+# sample3.ccr
+#
+# Here's a more complicated sample that is still technically valid
+
+# class containing just ':'
+colon  :
+
+# class containing '+', ':', '-'
+symbol +:-
+
+# class containing '_', 'a', 'b', 'c'
+wchr   _ a b c
+
+# class containing ':', '$', '@', '#', '&', '_', 'a', 'b', 'c'
+sigils :colon: $@:: #a & :wchr:
+
+# class containing whitespace chars
+ws      :space: :newline: :tab:

@@ -1,0 +1,9 @@
+# bad1.ccr
+#
+# This is an invalid ccr file - redefinition of a reserved class
+
+digit    0123456789
+ucletter ABCDEFGHIJKLMNOPQRSTUVWXYZ
+space    abc
+lcletter abcdefghijklmnopqrstuvwxyz
+letter   ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz

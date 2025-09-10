@@ -1,0 +1,9 @@
+# sample1.ccr
+#
+# This .ccr file creates a characters classes for digits, uppercase letters, lowercase letters,
+# and letters (upper and lowercase)
+
+digit    0123456789
+ucletter ABCDEFGHIJKLMNOPQRSTUVWXYZ
+lcletter abcdefghijklmnopqrstuvwxyz
+letter   :ucletter: :lcletter:

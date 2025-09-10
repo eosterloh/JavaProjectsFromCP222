@@ -1,0 +1,9 @@
+# bad3.ccr
+#
+# This is an invalid ccr file - redefinition of a class
+
+digit    0123456789
+ucletter ABCDEFGHIJKLMNOPQRSTUVWXYZ
+lcletter abcdefghijklmnopqrstuvwxyz
+digit    0123456789ABCDEF
+letter   ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz

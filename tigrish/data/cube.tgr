@@ -1,0 +1,4 @@
+# Take in the value of x from the user
+x <
+# Compute the cube and print to the user
+x x * x * >
